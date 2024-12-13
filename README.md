@@ -105,7 +105,9 @@ Ce projet est une démonstration des compétences en développement Android avec
 
 
   @Test
+  
   fun loginForm_isFunctional() {
+  
       val scenario = ActivityScenario.launch(MainActivity::class.java)
   
       // Saisir le nom d’utilisateur
