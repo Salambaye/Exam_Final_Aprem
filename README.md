@@ -103,14 +103,14 @@ Ce projet est une démonstration des compétences en développement Android avec
     - Vérifier l’affichage d’un message de bienvenue.
 
 
-@Test
+  @Test
   fun loginForm_isFunctional() {
-     val scenario = ActivityScenario.launch(MainActivity::class.java)
-     // Saisir le nom d’utilisateur
-     onView(withId(R.id.username)).perform(typeText("user"), closeSoftKeyboard())
+      val scenario = ActivityScenario.launch(MainActivity::class.java)
+      // Saisir le nom d’utilisateur
+      onView(withId(R.id.username)).perform(typeText("user"), closeSoftKeyboard())
 
-     // Saisir le mot de passe
-     onView(withId(R.id.password)).perform(typeText("password"), closeSoftKeyboard())
+      // Saisir le mot de passe
+      onView(withId(R.id.password)).perform(typeText("password"), closeSoftKeyboard())
 
       // Cliquer sur le bouton « Se connecter »
       onView(withId(R.id.loginButton)).perform(click())
