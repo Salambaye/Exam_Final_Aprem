@@ -34,7 +34,8 @@ Ce projet est une démonstration des compétences en développement Android avec
 
 ## Captures d'écran
 ### Débogage avec Logcat :
-![Capture d'écran de l'application](C:\Users\DELL\Pictures\debogage1.png)
+![debogage1](https://github.com/user-attachments/assets/62707c0e-c2ea-42c2-852c-832c8ab41882)
+![debogage2](https://github.com/user-attachments/assets/5e923b16-4c33-4154-98d7-d03f4a9bb4fd)
 
 ### Gestion des exceptions :
 
@@ -67,7 +68,7 @@ Ce projet est une démonstration des compétences en développement Android avec
 ### Tests unitaires avec JUnit
 
 Exemple :
-      ```bash
+     ```bash
 class CalculatorTest {
    @Test
    fun addition_isCorrect() {
@@ -78,7 +79,7 @@ class CalculatorTest {
 ### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
-    ```bash
+     ```bash
    @Test
    fun button_isDisplayed() {
        onView(withId(R.id.myButton)).check(matches(isDisplayed()))
