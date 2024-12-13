@@ -16,14 +16,12 @@ Ce projet est une démonstration des compétences en développement Android avec
 ---
 
 
----
-
 ## Instructions pour exécuter le projet
 
 1. **Cloner le projet** :
    ```bash
-   git clone https://github.com/salambaye/exam-final-android.git
-   cd exam-final-android
+   git clone https://github.com/salambaye/Exam-Final-Aprem.git
+   cd Exam-Final-Aprem
 
 2. Ouvrir le projet dans Android Studio :
 - Sélectionnez le fichier build.gradle dans le répertoire racine.
@@ -44,26 +42,27 @@ Tests réussis :
 **Note** : Remplacez path/to/... par les chemins des captures d'écran dans votre projet.
 
 ---
-Fonctionnalités
+## Fonctionnalités
 
-    Débogage avec Logcat :
-        Ajout de journaux (logs) pour suivre le comportement de l'application.
-        Exemple :
+1.  **Débogage avec Logcat** :
+      - Ajout de journaux (logs) pour suivre le comportement de l'application.
+      - Exemple :
    ```bash
         Log.d("MainActivity", "Application démarrée")
 
-    Gestion des exceptions courantes :
-        Gestion des exceptions telles que NullPointerException et IndexOutOfBoundsException.
-        Utilisation de vérifications avant l'accès aux données.
+2. **Gestion des exceptions courantes** :
+        - Gestion des exceptions telles que NullPointerException et IndexOutOfBoundsException.
+        - Utilisation de vérifications avant l'accès aux données.
 
-    Interface utilisateur dynamique :
-        Formulaire de connexion avec validation et message de bienvenue.
+3. **Interface utilisateur dynamique** :
+        - Formulaire de connexion avec validation et message de bienvenue.
 
-    Tests (unitaires et UI) :
-        Tests avec JUnit pour valider les fonctionnalités principales.
-        Tests UI avec Espresso pour vérifier l'interface utilisateur.
+4. **Tests (unitaires et UI)** :
+        - Tests avec JUnit pour valider les fonctionnalités principales.
+        - Tests UI avec Espresso pour vérifier l'interface utilisateur.
+---
 
-Tests
+## Tests
 Tests unitaires
 
 Exemple :
