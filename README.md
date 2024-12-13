@@ -85,12 +85,11 @@ Exemple :
 ### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
-   ```bash
-
-   @Test
-   fun button_isDisplayed() {
-       onView(withId(R.id.myButton)).check(matches(isDisplayed()))
-   }
+    ```bash
+    @Test
+      fun button_isDisplayed() {
+          onView(withId(R.id.myButton)).check(matches(isDisplayed()))
+      }
 ![TestUI](https://github.com/user-attachments/assets/fdac73a7-47f3-4ac9-98c6-89a02a52a7b7)
 
 
