@@ -71,24 +71,28 @@ Ce projet est une démonstration des compétences en développement Android avec
 ### Tests unitaires avec JUnit
 
 Exemple :
-     ```bash
-class CalculatorTest {
-   @Test
-   fun addition_isCorrect() {
+    ```bash
+   class CalculatorTest {
+      @Test
+      fun addition_isCorrect() {
               assertEquals(4, 2 + 2)
+      }
    }
-}
-https://private-user-images.githubusercontent.com/67522046/395226137-12ce6764-0645-420a-ab47-3a5ad265ee4e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQxMTI4MzYsIm5iZiI6MTczNDExMjUzNiwicGF0aCI6Ii82NzUyMjA0Ni8zOTUyMjYxMzctMTJjZTY3NjQtMDY0NS00MjBhLWFiNDctM2E1YWQyNjVlZTRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjEzVDE3NTUzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZlZWMyMDliNzc2ZjQyZTQ1NTU5MDdlNWE1YjJmMzRhYWIxMzhhOGIzNmFmOGNlMWJkZjhiZWNmMDg5NjJmMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cp5bzuBxfhiaHtXeo_m0nWkBEEPTf61VNPWgOQzyDcI
+
+![TestUJ](https://github.com/user-attachments/assets/f67e7d2b-ad46-4fd7-90ef-03623e5b3e67)
 
 
 ### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
-     ```bash
+   ```bash
+
    @Test
    fun button_isDisplayed() {
        onView(withId(R.id.myButton)).check(matches(isDisplayed()))
    }
+![TestUI](https://github.com/user-attachments/assets/fdac73a7-47f3-4ac9-98c6-89a02a52a7b7)
+
 
 ### Création d’un Scénario de Tests 
 - Formulaire de connexion :
@@ -117,6 +121,7 @@ Exemple de test Espresso pour le formulaire de connexion :
       // Vérifier que le message de bienvenue est affiché
       onView(withId(R.id.welcomeMessage)).check(matches(isDisplayed()))
   }
+![Scenario](https://github.com/user-attachments/assets/62c9ae80-38c8-4b2e-9105-78c62b5bddd8)
 
 ---
 
