@@ -38,8 +38,11 @@ Ce projet est une démonstration des compétences en développement Android avec
 ![debogage2](https://github.com/user-attachments/assets/5e923b16-4c33-4154-98d7-d03f4a9bb4fd)
 
 ### Gestion des exceptions :
+![GestionExc](https://github.com/user-attachments/assets/c7e4de19-8ab1-4ac3-98aa-cebcf2607a61)
 
 ### Points d’Arrêt et Inspection 
+![PointA1](https://github.com/user-attachments/assets/be59f80e-4c1d-4732-8857-1c0ea3208040)
+![PointA2](https://github.com/user-attachments/assets/f5e13785-4e57-4715-b6b4-a746e1004003)
 
 
 ---
@@ -75,6 +78,8 @@ class CalculatorTest {
               assertEquals(4, 2 + 2)
    }
 }
+https://private-user-images.githubusercontent.com/67522046/395226137-12ce6764-0645-420a-ab47-3a5ad265ee4e.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzQxMTI4MzYsIm5iZiI6MTczNDExMjUzNiwicGF0aCI6Ii82NzUyMjA0Ni8zOTUyMjYxMzctMTJjZTY3NjQtMDY0NS00MjBhLWFiNDctM2E1YWQyNjVlZTRlLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjEzVDE3NTUzNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZlZWMyMDliNzc2ZjQyZTQ1NTU5MDdlNWE1YjJmMzRhYWIxMzhhOGIzNmFmOGNlMWJkZjhiZWNmMDg5NjJmMWQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.cp5bzuBxfhiaHtXeo_m0nWkBEEPTf61VNPWgOQzyDcI
+
 
 ### Tests UI avec Espresso
 
