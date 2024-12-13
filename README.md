@@ -71,7 +71,7 @@ Ce projet est une démonstration des compétences en développement Android avec
 ### Tests unitaires avec JUnit
 
     Exemple :
-    ```bash
+    
       class CalculatorTest {
          @Test
          fun addition_isCorrect() {
@@ -83,12 +83,11 @@ Ce projet est une démonstration des compétences en développement Android avec
 
 
 ### Tests UI avec Espresso
-
-Exemple de test Espresso pour le formulaire de connexion :
-    @Test
-      fun button_isDisplayed() {
-          onView(withId(R.id.myButton)).check(matches(isDisplayed()))
-      }
+   Exemple de test Espresso pour le formulaire de connexion :
+         @Test
+         fun button_isDisplayed() {
+             onView(withId(R.id.myButton)).check(matches(isDisplayed()))
+         }
 ![TestUI](https://github.com/user-attachments/assets/fdac73a7-47f3-4ac9-98c6-89a02a52a7b7)
 
 
