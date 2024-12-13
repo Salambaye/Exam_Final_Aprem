@@ -47,8 +47,8 @@ Ce projet est une démonstration des compétences en développement Android avec
 1.  **Débogage avec Logcat** :
       - Ajout de journaux (logs) pour suivre le comportement de l'application.
       - Exemple :
-           ```bash
-   Log.d("MainActivity", "Application démarrée")
+      ```bash
+      Log.d("MainActivity", "Application démarrée")
 
 3. **Gestion des exceptions courantes** :
         - Gestion des exceptions telles que NullPointerException et IndexOutOfBoundsException.
@@ -68,16 +68,17 @@ Ce projet est une démonstration des compétences en développement Android avec
 
 Exemple :
       ```bash
-      class CalculatorTest {
-       @Test
-       fun addition_isCorrect() {
-           assertEquals(4, 2 + 2)
-       }
+class CalculatorTest {
+   @Test
+   fun addition_isCorrect() {
+              assertEquals(4, 2 + 2)
    }
+}
+
 ### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
-   ```bash
+    ```bash
    @Test
    fun button_isDisplayed() {
        onView(withId(R.id.myButton)).check(matches(isDisplayed()))
