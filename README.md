@@ -85,7 +85,6 @@ Exemple :
 ### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
-   ```bash
     @Test
       fun button_isDisplayed() {
           onView(withId(R.id.myButton)).check(matches(isDisplayed()))
@@ -104,7 +103,7 @@ Exemple de test Espresso pour le formulaire de connexion :
       
     - Vérifier l’affichage d’un message de bienvenue.
 
-   ```bash
+
    @Test
   fun loginForm_isFunctional() {
       val scenario = ActivityScenario.launch(MainActivity::class.java)
