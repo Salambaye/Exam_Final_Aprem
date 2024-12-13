@@ -26,15 +26,13 @@ Ce projet est une démonstration des compétences en développement Android avec
    cd exam-final-android
 
 2. Ouvrir le projet dans Android Studio :
-      ```bash
-   Sélectionnez le fichier build.gradle dans le répertoire racine.
+- Sélectionnez le fichier build.gradle dans le répertoire racine.
 
 4. Exécuter l'application :
-      ```bash
-        Connectez un appareil ou démarrez un émulateur Android.
-        Cliquez sur Run > Run 'app' ou utilisez le raccourci Shift + F10.
+- Connectez un appareil ou démarrez un émulateur Android.
+- Cliquez sur Run > Run 'app' ou utilisez le raccourci Shift + F10.
 
-Captures d'écran
+## Captures d'écran
 Débogage avec Logcat :
 
 Gestion des exceptions :
@@ -98,3 +96,5 @@ Installation et exécution
 
     Exécution des tests :
         Cliquez avec le bouton droit sur les classes de test et sélectionnez Run Tests.
+
+
