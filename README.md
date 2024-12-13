@@ -22,7 +22,7 @@ Ce projet est une démonstration des compétences en développement Android avec
 
 1. **Cloner le projet** :
    ```bash
-   git clone https://github.com/username/exam-final-android.git
+   git clone https://github.com/salambaye/exam-final-android.git
    cd exam-final-android
 
 2. Ouvrir le projet dans Android Studio :
@@ -41,7 +41,9 @@ Interface utilisateur :
 
 Tests réussis :
 
-Note : Remplacez path/to/... par les chemins des captures d'écran dans votre projet.
+**Note** : Remplacez path/to/... par les chemins des captures d'écran dans votre projet.
+
+---
 Fonctionnalités
 
     Débogage avec Logcat :
