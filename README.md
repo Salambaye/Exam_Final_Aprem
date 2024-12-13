@@ -71,7 +71,7 @@ Ce projet est une démonstration des compétences en développement Android avec
 ### Tests unitaires avec JUnit
 
 Exemple :
-   ```bash
+    ```bash
    class CalculatorTest {
       @Test
       fun addition_isCorrect() {
