@@ -87,7 +87,7 @@ Exemple de test Espresso pour le formulaire de connexion :
 ### Création d’un Scénario de Tests 
 - Formulaire de connexion :
 
-  - Entrer le nom d'utilisateur.
+     - Entrer le nom d'utilisateur.
       
     - Entrer le mot de passe.
       
