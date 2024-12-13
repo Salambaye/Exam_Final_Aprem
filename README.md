@@ -23,23 +23,23 @@ Ce projet est une démonstration des compétences en développement Android avec
    git clone https://github.com/salambaye/Exam-Final-Aprem.git
    cd Exam-Final-Aprem
 
-2. Ouvrir le projet dans Android Studio :
+2. **Ouvrir le projet dans Android Studio** :
 - Sélectionnez le fichier build.gradle dans le répertoire racine.
 
-4. Exécuter l'application :
+4. **Exécuter l'application** :
 - Connectez un appareil ou démarrez un émulateur Android.
 - Cliquez sur Run > Run 'app' ou utilisez le raccourci Shift + F10.
 
+---
+
 ## Captures d'écran
-Débogage avec Logcat :
+### Débogage avec Logcat :
+![Capture d'écran de l'application](C:\Users\DELL\Pictures\debogage1.png)
 
-Gestion des exceptions :
+### Gestion des exceptions :
 
-Interface utilisateur :
+### Points d’Arrêt et Inspection 
 
-Tests réussis :
-
-**Note** : Remplacez path/to/... par les chemins des captures d'écran dans votre projet.
 
 ---
 ## Fonctionnalités
@@ -47,55 +47,92 @@ Tests réussis :
 1.  **Débogage avec Logcat** :
       - Ajout de journaux (logs) pour suivre le comportement de l'application.
       - Exemple :
-   ```bash
-        Log.d("MainActivity", "Application démarrée")
+           ```bash
+   Log.d("MainActivity", "Application démarrée")
 
-2. **Gestion des exceptions courantes** :
+3. **Gestion des exceptions courantes** :
         - Gestion des exceptions telles que NullPointerException et IndexOutOfBoundsException.
         - Utilisation de vérifications avant l'accès aux données.
 
-3. **Interface utilisateur dynamique** :
+4. **Interface utilisateur dynamique** :
         - Formulaire de connexion avec validation et message de bienvenue.
 
-4. **Tests (unitaires et UI)** :
+5. **Tests (unitaires et UI)** :
         - Tests avec JUnit pour valider les fonctionnalités principales.
         - Tests UI avec Espresso pour vérifier l'interface utilisateur.
+   
 ---
 
 ## Tests
-Tests unitaires
+### Tests unitaires avec JUnit
 
 Exemple :
-   ```bash
-@Test
-fun addition_isCorrect() {
-    assertEquals(4, 2 + 2)
-}
+           ```bash
 
-Tests UI
+      class CalculatorTest {
+       @Test
+       fun addition_isCorrect() {
+           assertEquals(4, 2 + 2)
+       }
+   }
+### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
+           ```bash
 
-   ```bash
-@Test
-fun loginForm_isFunctional() {
-    onView(withId(R.id.username)).perform(typeText("user"), closeSoftKeyboard())
-    onView(withId(R.id.password)).perform(typeText("password"), closeSoftKeyboard())
-    onView(withId(R.id.loginButton)).perform(click())
-    onView(withId(R.id.welcomeMessage)).check(matches(isDisplayed()))
-}
+   @Test
+   fun button_isDisplayed() {
+       onView(withId(R.id.myButton)).check(matches(isDisplayed()))
+   }
 
-Installation et exécution
+### Création d’un Scénario de Tests 
+   - Formulaire de connexion :
 
-    Pré-requis :
-        Android Studio installé (version récente).
-        SDK Android configuré.
+          - Entrer le nom d'utilisateur.
+      
+          - Entrer le mot de passe.
+      
+          - Cliquer sur « Se connecter ».
+      
+          - Vérifier l’affichage d’un message de bienvenue.
 
-    Étapes d'installation :
-        Importez le projet dans Android Studio.
-        Synchronisez les dépendances Gradle.
+           ```bash
 
-    Exécution des tests :
-        Cliquez avec le bouton droit sur les classes de test et sélectionnez Run Tests.
+       @Test
+  fun loginForm_isFunctional() {
+      val scenario = ActivityScenario.launch(MainActivity::class.java)
+      // Saisir le nom d’utilisateur
+      onView(withId(R.id.username)).perform(typeText("user"), closeSoftKeyboard())
+
+      // Saisir le mot de passe
+      onView(withId(R.id.password)).perform(typeText("password"), closeSoftKeyboard())
+
+      // Cliquer sur le bouton « Se connecter »
+      onView(withId(R.id.loginButton)).perform(click())
+
+      // Vérifier que le message de bienvenue est affiché
+      onView(withId(R.id.welcomeMessage)).check(matches(isDisplayed()))
+  }
+
+---
+
+## Installation et exécution
+   1. **Pré-requis* :
+        - Android Studio installé (version récente).
+        - SDK Android configuré.
+
+   2. **Étapes d'installation* :
+        - Importez le projet dans Android Studio.
+        - Synchronisez les dépendances Gradle.
+
+   3. **Exécution des tests* :
+        - Cliquez avec le bouton droit sur les classes de test et sélectionnez Run Tests.
+     
+---
+
+## Contributeurs
+- Salamata Nourou MBAYE
+- Celaire Idriss OKA
+- Chaimae MOUHDA
 
 
