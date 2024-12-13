@@ -85,17 +85,17 @@ Exemple de test Espresso pour le formulaire de connexion :
    }
 
 ### Création d’un Scénario de Tests 
-   - Formulaire de connexion :
+- Formulaire de connexion :
 
-          - Entrer le nom d'utilisateur.
+  - Entrer le nom d'utilisateur.
       
-          - Entrer le mot de passe.
+    - Entrer le mot de passe.
       
-          - Cliquer sur « Se connecter ».
+    - Cliquer sur « Se connecter ».
       
-          - Vérifier l’affichage d’un message de bienvenue.
+    - Vérifier l’affichage d’un message de bienvenue.
 
-    ```bash
+   ```bash
    @Test
   fun loginForm_isFunctional() {
       val scenario = ActivityScenario.launch(MainActivity::class.java)
