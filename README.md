@@ -84,6 +84,7 @@ Ce projet est une démonstration des compétences en développement Android avec
 
 ### Tests UI avec Espresso
    Exemple de test Espresso pour le formulaire de connexion :
+   
       @Test
       fun button_isDisplayed() {
          onView(withId(R.id.myButton)).check(matches(isDisplayed()))
@@ -106,6 +107,7 @@ Ce projet est une démonstration des compétences en développement Android avec
   @Test
   fun loginForm_isFunctional() {
       val scenario = ActivityScenario.launch(MainActivity::class.java)
+  
       // Saisir le nom d’utilisateur
       onView(withId(R.id.username)).perform(typeText("user"), closeSoftKeyboard())
 
