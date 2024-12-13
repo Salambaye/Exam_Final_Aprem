@@ -71,7 +71,7 @@ Ce projet est une démonstration des compétences en développement Android avec
 ### Tests unitaires avec JUnit
 
 Exemple :
-    ```bash
+   ```bash
    class CalculatorTest {
       @Test
       fun addition_isCorrect() {
@@ -85,7 +85,7 @@ Exemple :
 ### Tests UI avec Espresso
 
 Exemple de test Espresso pour le formulaire de connexion :
-    ```bash
+   ```bash
     @Test
       fun button_isDisplayed() {
           onView(withId(R.id.myButton)).check(matches(isDisplayed()))
@@ -125,15 +125,15 @@ Exemple de test Espresso pour le formulaire de connexion :
 ---
 
 ## Installation et exécution
-   1. **Pré-requis* :
+   1. *Pré-requis* :
         - Android Studio installé (version récente).
         - SDK Android configuré.
 
-   2. **Étapes d'installation* :
+   2. *Étapes d'installation* :
         - Importez le projet dans Android Studio.
         - Synchronisez les dépendances Gradle.
 
-   3. **Exécution des tests* :
+   3. *Exécution des tests* :
         - Cliquez avec le bouton droit sur les classes de test et sélectionnez Run Tests.
      
 ---
