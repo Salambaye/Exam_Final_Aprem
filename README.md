@@ -70,14 +70,14 @@ Ce projet est une démonstration des compétences en développement Android avec
 ## Tests
 ### Tests unitaires avec JUnit
 
-Exemple :
+    Exemple :
     ```bash
-   class CalculatorTest {
-      @Test
-      fun addition_isCorrect() {
-              assertEquals(4, 2 + 2)
+      class CalculatorTest {
+         @Test
+         fun addition_isCorrect() {
+                 assertEquals(4, 2 + 2)
+         }
       }
-   }
 
 ![TestUJ](https://github.com/user-attachments/assets/f67e7d2b-ad46-4fd7-90ef-03623e5b3e67)
 
